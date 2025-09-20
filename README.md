@@ -32,7 +32,7 @@ This is a modern profile card web application built with React, Vite, and Tailwi
 	```sh
 	npm run dev
 	```
-4. Open [https://mohanlalmanna24.github.io/profile-card/] in your browser.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Project Structure
 
