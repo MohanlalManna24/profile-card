@@ -13,10 +13,6 @@ This is a modern profile card web application built with React, Vite, and Tailwi
 - TailwindCSS for easy styling
 - FontAwesome icons
 
-## Demo
-
-![Profile Card Screenshot](src/assets/photo2.jpg)
-
 ## Getting Started
 
 ### Prerequisites
@@ -36,7 +32,7 @@ This is a modern profile card web application built with React, Vite, and Tailwi
 	```sh
 	npm run dev
 	```
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+4. Open [https://mohanlalmanna24.github.io/profile-card/] in your browser.
 
 ## Project Structure
 

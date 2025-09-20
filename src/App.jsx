@@ -12,9 +12,6 @@ const App = () => {
   return (
     <>
       <div className="body relative min-h-screen bg-gradient-to-r from-white-800 via-yellow-50 via-white-800 select-none">
-        {/* <div className="header absolute top-0 w-full">
-          <div className="w-full h-10 bg-gradient-to-r from-orange-400 via-yellow-400 to-red-500"></div>
-        </div> */}
         <div className=" main-container flex justify-center items-center m-auto min-h-screen">
           <div className="sub-container w-90 bg-gradient-to-b from-blue-900 via-gray-800 to-teal-700 rounded-2xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] shadow-inner-[inset_0_5px_15px_rgba(0,0,0,0.6)]">
             <div className="btn relative m-5 flex justify-between text-xl text-gray-600 cursor-pointer">
@@ -28,7 +25,7 @@ const App = () => {
               <i
                 onClick={() =>
                   navigator.share({
-                    url: "https://mohanlalmanna24.github.io/portfolio/",
+                    url: "https://mohanlalmanna24.github.io/profile-card/",
                   })
                 }
                 className="fa-solid fa-share text-amber-50"
@@ -99,7 +96,7 @@ const App = () => {
         </div>
         
         <div className="whatsappBtn">
-          <a href="https://wa.me/7584861748" target="_blank">
+          <a href="https://wa.me/9800779047" target="_blank">
             <img 
               className="fixed bottom-8 right-4 md:bottom-20 md:right-10 w-15 h-15 md:w-16 md:h-16 animate-bounce hover:animate-none hover:scale-110 transition-transform duration-300 z-50" 
               src="../src/assets/whatsapp.png" 
