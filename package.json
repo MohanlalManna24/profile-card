@@ -1,10 +1,11 @@
 {
-  "homepage": "https://mohanlalmanna24.github.io/profile-card",
+  "homepage": "https://MohanlalManna24/profile-card",
   "name": "profile-card",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
