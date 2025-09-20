@@ -98,7 +98,7 @@ const App = () => {
         </div>
         
         <div className="whatsappBtn">
-          <a href="https://wa.me/9800779047" target="_blank">
+          <a href="https://wa.me/919800779047" target="_blank">
             <img 
               className="fixed bottom-8 right-4 md:bottom-20 md:right-10 w-15 h-15 md:w-16 md:h-16 animate-bounce hover:animate-none hover:scale-110 transition-transform duration-300 z-50" 
               src={whatsapp} 
