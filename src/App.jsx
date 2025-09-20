@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import dp from "./assets/photo2.jpg";
+import whatsapp from "./assets/whatsapp.png";
 
 const App = () => {
   const [isHeartClicked, setIsHeartClicked] = useState(false);
@@ -35,7 +37,7 @@ const App = () => {
               <div className="dp bg-black w-30 h-30 rounded-full m-auto -mt-18 border-8 border-white">
                 <img
                   className="w-full h-full object-cover rounded-full"
-                  src="../src/assets/photo2.jpg"
+                  src={dp}
                   alt="dp"
                 />
               </div>
@@ -99,7 +101,7 @@ const App = () => {
           <a href="https://wa.me/9800779047" target="_blank">
             <img 
               className="fixed bottom-8 right-4 md:bottom-20 md:right-10 w-15 h-15 md:w-16 md:h-16 animate-bounce hover:animate-none hover:scale-110 transition-transform duration-300 z-50" 
-              src="../src/assets/whatsapp.png" 
+              src={whatsapp} 
               alt="whatsapp" 
               title="chat with me"
             />
